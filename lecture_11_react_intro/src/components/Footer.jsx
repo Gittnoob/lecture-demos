@@ -1,9 +1,8 @@
-//const myName = "Kristen"
-
-export function FooterElement(props){
+export function FooterElement(props) {
+    console.log("props",props);
     return (
         <footer>
-            This is a footer from {props.myName}
+            This is a footer
         </footer>
     )
 }
